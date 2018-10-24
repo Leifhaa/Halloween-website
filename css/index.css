@@ -1,0 +1,186 @@
+#index_container{
+    left:30px;
+}
+
+
+body{
+    background-color:rgb(130,130,130);
+    margin:0;
+    border:0;
+    padding:0;
+    position:relative;
+}
+
+
+
+#enterSite{
+    background-color: black; /* Green */
+    border: none;
+    color: orange;
+    padding: 50px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    position:relative;
+    left:500;
+    top:300;
+    z-index: 1;
+    
+}
+
+
+/* start pumpkind code*/
+#index_id_img_pumpkins0{
+    width:700;
+    left:0;
+    z-index: 1;
+}
+
+#index_id_img_pumpkins1{
+    width:900;
+    left:350;
+    z-index: 2;
+}
+
+#index_id_img_pumpkins2{
+    width:650;
+    left:450;
+    z-index: 2;
+}
+/* end pumpkind code*/
+
+
+.index_class_img_pumpkins{
+    position:absolute;
+    bottom:0
+}
+
+
+
+
+
+/* start zombie code */
+
+.index_class_img_zombie{
+    position:absolute;
+    bottom:0;
+}
+
+
+
+/* Zombie walk animation */
+#index_id_img_zombie{
+    right:-500px;
+    animation-name:zombieWalk;
+    animation-duration: 30s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay:0s
+}
+
+@keyFrames zombieWalk{
+    0%{
+        right:0px;
+        transform: scaleX(-1);
+    }
+    
+    1%{
+         transform: scaleX(1);
+    }
+    
+    10%{
+        bottom:10px;
+    }
+    
+    13%{
+        bottom:0px;
+    }
+    
+    20%{
+        bottom:10px;
+    }
+    
+    23%{
+        bottom:0px;
+    }
+    
+    30%{
+        bottom:10px;
+    }
+    
+    33%{
+        bottom:0px;
+    }
+    
+        10%{
+        bottom:10px;
+    }
+    
+    40%{
+        bottom:0px;
+    }
+    
+    43%{
+        
+        transform: scaleX(1);
+        }
+    50%{
+        right:1000px;
+        transform: scaleX(-1);
+    }
+    
+    50%{
+        bottom:10px;
+    }
+    
+    53%{
+        bottom:0px;
+    }
+    
+    60%{
+        bottom:10px;
+    }
+    
+    63%{
+        bottom:0px;
+    }
+    
+    70%{
+        bottom:10px;
+    }
+    
+    73%{
+        bottom:0px;
+    }
+    
+    80%{
+        bottom:10px;
+    }
+    
+    83%{
+        bottom:0px;
+    }
+    
+    90%{
+        bottom:10px;
+    }
+    
+    93%{
+        bottom:0px;
+    }
+    
+    100%{
+        transform: scaleX(-1);
+        right:0px;
+    }
+}
+/* END Zombie walk animation */
+
+/* end zombie code */
+
+
+
+
+
+
